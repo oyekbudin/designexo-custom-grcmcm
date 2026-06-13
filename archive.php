@@ -14,6 +14,7 @@ if($designexo_archive_blog_container_size == 'container-full'){$container = '9';
 ?>
 
 <section class="theme-block theme-blog theme-blog-large theme-bg-grey">
+	<!-- Apakah file ini -->
 	<div class="<?php echo esc_attr($designexo_archive_blog_container_size); ?>">
 		<div class="row">
 		
