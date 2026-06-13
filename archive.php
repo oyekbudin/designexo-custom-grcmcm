@@ -46,7 +46,7 @@ if ($designexo_archive_blog_container_size == 'container-full') {
 
 									<div class="col-md-6 col-lg-4">
 
-										<div class="berita-card h-100">
+										<div class="berita-card">
 
 											<a href="<?php the_permalink(); ?>" class="text-decoration-none">
 
