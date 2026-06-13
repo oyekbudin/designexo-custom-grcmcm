@@ -59,7 +59,7 @@ if ($designexo_archive_blog_container_size == 'container-full') {
 												<!-- CONTENT -->
 												<div class="p-3">
 
-													<h5 id="judul-berita-home">
+													<h5 id="judul-berita-home" class="p-0 m-0">
 														<?php the_title(); ?>
 													</h5>
 
