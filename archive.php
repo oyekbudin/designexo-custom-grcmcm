@@ -107,49 +107,6 @@ if ($designexo_archive_blog_container_size == 'container-full') {
 
 			</div>
 
-			ubah menjadi seperti ini
-
-			<!-- Berita -->
-
-
-
-			<div class="row g-3">
-
-				@foreach ($databerita as $db)
-				<div class="col-md-6 col-lg-4">
-
-
-					<div class="berita-card h-100">
-
-						<a href="{{ route('show', $db->slug) }}" class="text-decoration-none">
-							<!-- IMAGE -->
-							<img src="{{ $db->gambar ? asset($db->gambar) : asset('assets/img/health/cardiology-2.webp') }}"
-								class="berita-img" alt="{{ $db->judul }}" loading="lazy">
-
-							<!-- CONTENT -->
-							<div class="p-3">
-
-								<h5 id="judul-berita-home" class="">{{ $db->judul }}</h5>
-
-								<span class="tanggal-berita-home">
-									<i class="bi bi-clock"></i>
-									{{ \Carbon\Carbon::parse($db->tanggal_publish)->diffForHumans() }}
-								</span>
-
-							</div>
-						</a>
-
-
-
-					</div>
-
-
-				</div>
-				@endforeach
-
-			</div>
-			@endforeach
-
-			<!-- end Berita -->
+			
 </section>
 <?php get_footer(); ?>
